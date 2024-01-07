@@ -67,7 +67,6 @@ function addTask() {
       editInput.style.display = 'inline-block';
       editDateInput.style.display = 'inline-block';
       editInput.value = taskText.textContent.trim();
-      // editDateInput.value = taskDateSpan.textContent;
       editInput.focus();
       editDateInput.focus();
       // Change the button to "Update"
